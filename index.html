@@ -1,31 +1,27 @@
 <!DOCTYPE html>
+
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-<title>TOSS KING | India No.1 Cricket Community</title>
-
-<!-- META PIXEL -->
+  <!-- Meta Pixel Code -->
 <script>
 !function(f,b,e,v,n,t,s)
 {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
 n.callMethod.apply(n,arguments):n.queue.push(arguments)};
-if(!f._fbq)f._fbq=n;
-n.push=n;
-n.loaded=!0;
-n.version='2.0';
-n.queue=[];
-t=b.createElement(e);
-t.async=!0;
-t.src='https://connect.facebook.net/en_US/fbevents.js';
-s=b.getElementsByTagName(e)[0];
-s.parentNode.insertBefore(t,s)
-}(window, document,'script');
-
-fbq('init','2034369103789017');
-fbq('track','PageView');
+if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+n.queue=[];t=b.createElement(e);t.async=!0;
+t.src=v;s=b.getElementsByTagName(e)[0];
+s.parentNode.insertBefore(t,s)}(window, document,'script',
+'https://connect.facebook.net/en_US/fbevents.js');
+fbq('init', '2034369103789017');
+fbq('track', 'PageView');
 </script>
+<noscript><img height="1" width="1" style="display:none"
+src="https://www.facebook.com/tr?id=2034369103789017&ev=PageView&noscript=1"
+/></noscript>
+<!-- End Meta Pixel Code -->
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>TOSS KING</title>
 
 <style>
 
@@ -37,254 +33,129 @@ font-family:Arial,sans-serif;
 }
 
 body{
-
-background:url("logo.jpg") center center/cover no-repeat fixed;
-height:100vh;
-overflow:hidden;
-position:relative;
-color:#fff;
-
-}
-
-body::before{
-
-content:"";
-position:absolute;
-left:0;
-top:0;
-width:100%;
-height:100%;
-background:rgba(0,0,0,.60);
-backdrop-filter:blur(12px);
-
+background:#050505;
+background-image:
+linear-gradient(rgba(255,255,255,.04) 1px, transparent 1px),
+linear-gradient(90deg, rgba(255,255,255,.04) 1px, transparent 1px);
+background-size:40px 40px;
+color:white;
+display:flex;
+justify-content:center;
+padding:20px;
 }
 
 .container{
-
-position:relative;
-z-index:10;
-
-display:flex;
-flex-direction:column;
-justify-content:center;
-align-items:center;
-
-height:100%;
-padding:20px;
-
-}
-
-.small{
-
-font-size:17px;
-letter-spacing:1px;
-opacity:.95;
-margin-bottom:20px;
-
-}
-
-.title{
-
-font-size:65px;
-font-weight:900;
+width:100%;
+max-width:430px;
+background:#0b0b0b;
+border:1px solid #2a2a2a;
+border-radius:25px;
+padding:25px;
+margin-top:20px;
+box-shadow:0 0 40px rgba(138,43,226,.25);
 text-align:center;
-line-height:65px;
-text-transform:uppercase;
-
-color:white;
-
-text-shadow:
-
-0 0 8px #fff,
-0 0 20px #ddd,
-0 0 40px #fff;
-
-margin-bottom:30px;
-
 }
 
-.tag{
+.logo{
+width:150px;
+height:150px;
+border-radius:50%;
+object-fit:cover;
+border:5px solid #a855f7;
+box-shadow:0 0 40px #a855f7;
+margin-bottom:20px;
+}
 
-border:1px solid rgba(255,255,255,.4);
+h1{
+font-size:42px;
+color:#facc15;
+margin-bottom:10px;
+}
 
-padding:12px 25px;
+.members{
+font-size:18px;
+color:#facc15;
+margin-bottom:20px;
+}
 
+.badges{
+display:flex;
+justify-content:center;
+gap:10px;
+flex-wrap:wrap;
+margin-bottom:25px;
+}
+
+.badge{
+padding:12px 18px;
+border-radius:30px;
+border:1px solid #facc15;
+color:#facc15;
+font-size:15px;
+}
+
+.stats{
+display:flex;
+gap:12px;
+margin-bottom:25px;
+}
+
+.stat{
+flex:1;
+background:#111;
+border:1px solid #222;
 border-radius:15px;
+padding:18px 10px;
+}
 
-backdrop-filter:blur(10px);
+.stat h2{
+font-size:28px;
+color:#facc15;
+margin-bottom:8px;
+}
 
-margin-bottom:35px;
-
-font-weight:bold;
-
-letter-spacing:1px;
-
+.stat p{
+color:#aaa;
+font-size:14px;
 }
 
 .join-btn{
-
-width:95%;
-max-width:520px;
-
-padding:22px;
-
-text-align:center;
-
-border-radius:20px;
-
-font-size:30px;
-
-font-weight:bold;
-
-text-decoration:none;
-
-color:white;
-
-background:linear-gradient(90deg,#111,#444,#111);
-
-box-shadow:
-
-0 0 20px rgba(255,255,255,.4);
-
-transition:.3s;
-
-margin-bottom:35px;
-
 display:block;
-
-}
-
-.join-btn:hover{
-
-transform:scale(1.03);
-
-box-shadow:
-0 0 35px rgba(255,255,255,.7);
-
+width:100%;
+padding:18px;
+border-radius:18px;
+text-decoration:none;
+font-size:20px;
+font-weight:bold;
+color:white;
+background:linear-gradient(90deg,#16a34a,#84cc16,#ef4444);
+margin-bottom:25px;
 }
 
 .features{
-
-display:flex;
-gap:15px;
-flex-wrap:wrap;
-justify-content:center;
-
-font-size:15px;
-
-margin-bottom:35px;
-
+display:grid;
+grid-template-columns:repeat(4,1fr);
+gap:10px;
 }
 
 .feature{
-
-background:rgba(255,255,255,.08);
-
-padding:10px 16px;
-
-border-radius:12px;
-
-backdrop-filter:blur(12px);
-
+background:#111;
+border:1px solid #222;
+border-radius:15px;
+padding:15px 8px;
+font-size:13px;
 }
 
-.live-box{
-
-width:100%;
-max-width:550px;
-
-padding:22px;
-
-border-radius:20px;
-
-background:rgba(255,255,255,.08);
-
-border:1px solid rgba(255,255,255,.18);
-
-backdrop-filter:blur(14px);
-
-text-align:center;
-
-margin-bottom:35px;
-
-}
-
-.live-title{
-
-font-size:23px;
-
-margin-bottom:18px;
-
-font-weight:bold;
-
-}
-
-.counter{
-
-font-size:62px;
-
-font-weight:900;
-
-letter-spacing:3px;
-
-}
-
-.green{
-
-color:#00ff6e;
-
-font-size:18px;
-
-margin-top:10px;
-
-}
-
-.count-title{
-
-font-size:28px;
-
-margin-top:15px;
-
-margin-bottom:18px;
-
-}
-
-.circle{
-
-width:170px;
-
-height:170px;
-
-border-radius:50%;
-
-border:10px solid white;
-
-display:flex;
-
-align-items:center;
-
-justify-content:center;
-
-font-size:70px;
-
-font-weight:bold;
-
-box-shadow:
-
-0 0 35px rgba(255,255,255,.6);
-
-margin-bottom:25px;
-
+.icon{
+font-size:26px;
+margin-bottom:8px;
 }
 
 .footer{
-
-font-size:24px;
-
-margin-top:10px;
-
-letter-spacing:1px;
-
+margin-top:25px;
+font-size:12px;
+color:#666;
+line-height:1.6;
 }
 
 </style>
@@ -295,130 +166,72 @@ letter-spacing:1px;
 
 <div class="container">
 
-<div class="small">
-India No.1 Cricket Community
+<img src="logo.jpg" class="logo">
+
+<h1>TOSS KING</h1>
+
+<div class="members">
+👥 30K+ Active Members
 </div>
 
-<div class="title">
-TOSS<br>KING
+<div class="badges">
+<div class="badge">🏆 Elite Analyst</div>
+<div class="badge">⚡ Live Updates</div>
 </div>
 
-<div class="tag">
-TRUSTED PREDICTIONS • 100% ACCURACY
+<div class="stats">
+
+<div class="stat">
+<h2>30K+</h2>
+<p>Members</p>
 </div>
 
-<a href="https://telegram.dog/+0xEVGdq2yIFkMTc9"
-class="join-btn"
-onclick="fbq('track','Lead');">
+<div class="stat">
+<h2>Daily</h2>
+<p>Updates</p>
+</div>
 
-🚀 JOIN TELEGRAM CHANNEL
+<div class="stat">
+<h2>24/7</h2>
+<p>Community</p>
+</div>
 
+</div>
+
+<a href="https://telegram.dog/+0xEVGdq2yIFkMTc9" class="join-btn" onclick="fbq('track','Lead');">
+📢 Join Telegram Channel
 </a>
-<div class="live-box">
 
-<div class="live-title">
-🔥 LIVE MEMBERS ONLINE
+<div class="features">
+
+<div class="feature">
+<div class="icon">✅</div>
+Verified
 </div>
 
-<div class="counter" id="members">
-24387
+<div class="feature">
+<div class="icon">🔒</div>
+Secure
 </div>
 
-<div class="green">
-▲ 168 Joined Today
+<div class="feature">
+<div class="icon">📈</div>
+Analysis
 </div>
 
+<div class="feature">
+<div class="icon">⭐</div>
+Top Rated
 </div>
 
-<div class="count-title">
-Offer Ends In
-</div>
-
-<div class="circle">
-<span id="countdown">30</span>
 </div>
 
 <div class="footer">
-⭐ Join The Original <b>TOSS KING</b>
+© TOSS KING. All Rights Reserved.<br>
+Professional Cricket Analysis & Community Updates
 </div>
 
 </div>
-
-<script>
-
-// Animated Member Counter
-
-let value = 24387;
-
-setInterval(function(){
-
-value += Math.floor(Math.random()*3);
-
-document.getElementById("members").innerHTML =
-value.toLocaleString();
-
-},3000);
-
-
-// Countdown
-
-let sec = 30;
-
-setInterval(function(){
-
-sec--;
-
-if(sec<0){
-
-sec=30;
-
-}
-
-document.getElementById("countdown").innerHTML=sec;
-
-},1000);
-
-
-// Floating animation
-
-document.querySelector(".live-box").animate([
-
-{
-transform:"translateY(0px)"
-},
-
-{
-transform:"translateY(-8px)"
-},
-
-{
-transform:"translateY(0px)"
-}
-
-],{
-
-duration:2500,
-
-iterations:Infinity
-
-});
-
-
-// Button animation
-
-setInterval(function(){
-
-document.querySelector(".join-btn").style.transform="scale(1.03)";
-
-setTimeout(function(){
-
-document.querySelector(".join-btn").style.transform="scale(1)";
-
-},350);
-
-},2500);
-
-</script>
 
 </body>
 </html>
