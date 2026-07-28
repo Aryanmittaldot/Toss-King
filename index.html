@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <!-- Meta Pixel Code -->
+<!-- Meta Pixel Code -->
 <script>
 !function(f,b,e,v,n,t,s)
 {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
@@ -11,181 +11,137 @@ n.queue=[];t=b.createElement(e);t.async=!0;
 t.src=v;s=b.getElementsByTagName(e)[0];
 s.parentNode.insertBefore(t,s)}(window, document,'script',
 'https://connect.facebook.net/en_US/fbevents.js');
-fbq('init', '2034369103789017');
+fbq('init', '
+1327465096016386');
 fbq('track', 'PageView');
 </script>
 <noscript><img height="1" width="1" style="display:none"
-src="https://www.facebook.com/tr?id=2034369103789017&ev=PageView&noscript=1"
+src="https://www.facebook.com/tr?id=
+1327465096016386&ev=PageView&noscript=1"
 /></noscript>
 <!-- End Meta Pixel Code -->
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>TOSS KING</title>
-
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 <style>
-*{
-margin:0;
-padding:0;
-box-sizing:border-box;
-font-family:Arial,sans-serif;
-}
 
 body{
+margin:0;
+padding:0;
+font-family: Arial, sans-serif;
+background:url('logo.jpg') no-repeat center top/cover;
 height:100vh;
-background:url(
-logo.jpg) center center/cover no-repeat;
+display:flex;
+justify-content:center;
+align-items:center;
+color:white;
+text-align:center;
 overflow:hidden;
 }
 
 .overlay{
-width:100%;
-height:100vh;
-backdrop-filter:blur(8px);
 background:rgba(0,0,0,0.65);
-display:flex;
-justify-content:center;
-align-items:center;
-text-align:center;
+position:absolute;
+top:0;
+left:0;
+width:100%;
+height:100%;
+}
+
+.content{
+position:relative;
+z-index:2;
 padding:20px;
+max-width:400px;
 }
 
-.container{
-max-width:600px;
-color:white;
-}
-
-.top-text{
-font-size:28px;
-margin-bottom:20px;
-text-shadow:0 0 10px black;
-}
-
-.title{
-font-size:72px;
-font-weight:bold;
-line-height:0.95;
-margin-bottom:30px;
-text-shadow:0 0 10px #fff,0 0 25px rgba(255,255,255,.8);
-}
-
-.join-btn{
-display:inline-block;
-padding:20px 35px;
-background:linear-gradient(90deg,#4d00ff,#b300ff);
-color:white;
-text-decoration:none;
-font-size:24px;
-font-weight:bold;
-border-radius:18px;
-box-shadow:0 0 25px #8a2be2;
-animation:pulse 1.5s infinite;
-margin-bottom:35px;
-}
-
-@keyframes pulse{
-0%{transform:scale(1);}
-50%{transform:scale(1.05);}
-100%{transform:scale(1);}
-}
-
-.count-text{
-font-size:22px;
-margin-bottom:15px;
-}
-
-.circle{
-width:140px;
-height:140px;
-border-radius:50%;
-background:linear-gradient(180deg,#4d00ff,#001eff);
-display:flex;
-justify-content:center;
-align-items:center;
-font-size:60px;
-font-weight:bold;
-margin:auto;
-box-shadow:0 0 30px #4d00ff;
-}
-
-.bottom{
-margin-top:25px;
-font-size:22px;
-}
-
-@media(max-width:600px){
-
-.title{
-font-size:58px;
-}
-
-.top-text{
-font-size:22px;
-}
-
-.join-btn{
+h2{
+font-weight:normal;
+margin-bottom:5px;
 font-size:20px;
-padding:18px 25px;
+}
+
+h1{
+font-size:38px;
+margin:5px 0 15px;
+letter-spacing:1px;
+}
+
+.btn{
+display:inline-block;
+margin-top:15px;
+padding:15px 25px;
+background:linear-gradient(45deg,#0044ff,#001aff);
+color:white;
+font-size:18px;
+font-weight:bold;
+border-radius:12px;
+text-decoration:none;
+box-shadow:0 0 20px rgba(0,0,255,0.6);
+}
+
+.countdown{
+margin-top:25px;
+font-size:16px;
 }
 
 .circle{
-width:120px;
-height:120px;
-font-size:50px;
+margin:12px auto;
+width:85px;
+height:85px;
+border-radius:50%;
+background:#0033ff;
+display:flex;
+align-items:center;
+justify-content:center;
+font-size:30px;
+font-weight:bold;
+box-shadow:0 0 15px rgba(0,0,255,0.8);
 }
-}
+
 </style>
 </head>
+<script>
 
+function joinNow(){
+
+fbq('track','Lead');
+
+window.open("https://telegram.dog/+0xEVGdq2yIFkMTc9","_blank");
+
+}
+
+</script>
 <body>
 
-<div class="overlay">
+<div class="overlay"></div>
 
-<div class="container">
+<div class="content">
+<h2>India No.1 Tipper</h2>
+<h1>TOSS KING</h1>
 
-<div class="top-text">
-India No.1 Cricket Community
-</div>
-
-<div class="title">
-TOSS<br>KING
-</div>
-
-<a href="https://telegram.dog/+0xEVGdq2yIFkMTc9" target="_blank"
-class="join-btn"
-onclick="fbq('track','Lead');">
-🚀 JOIN TELEGRAM CHANNEL
+<a class="btn" href="#" onclick="joinNow()">
+Join The Original Toss King
 </a>
 
-<div class="count-text">
+<div class="countdown">
 FREE JOINING ENDS IN...
-</div>
-
-<div class="circle" id="timer">
-21
-</div>
-
-<div class="bottom">
-Join The Original TOSS KING
-</div>
-
+<div class="circle" id="timer">20</div>
 </div>
 
 </div>
 
 <script>
-let count=21;
+var timeLeft = 20;
+var timer = document.getElementById("timer");
 
-setInterval(()=>{
-document.getElementById("timer").innerHTML=count;
-
-if(count<=1){
-count=21;
-}else{
-count--;
+var countdown = setInterval(function(){
+timeLeft--;
+timer.innerHTML = timeLeft;
+if(timeLeft <= 0){
+clearInterval(countdown);
 }
 },1000);
 </script>
 
 </body>
 </html>
-```
